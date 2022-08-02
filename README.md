@@ -15,10 +15,17 @@ npm install lv3-datatable
 ### Client Side
 
 ```js
-import Vue from 'vue'
-import Datatable from 'lv2-datatable'
+import { createApp } from "vue";
+import App from "./App.vue";
 
-Vue.use('Datatable', Datatable)
+import "lv3-datatable/dist/style.css";
+import { Datatable } from 'lv3-datatable'
+
+const app = createApp(App);
+
+app.component("DataTable", DataTable);
+
+app.mount("#app");
 ```
 
 ```vue
