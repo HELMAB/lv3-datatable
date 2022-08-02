@@ -18,7 +18,7 @@ npm install lv3-datatable
 import { createApp } from "vue";
 import App from "./App.vue";
 
-import "lv3-datatable/dist/style.css";
+import "./../node_modules/lv3-datatable/dist/style.css";
 import { Datatable } from 'lv3-datatable'
 
 const app = createApp(App);
