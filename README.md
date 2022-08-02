@@ -19,7 +19,7 @@ import { createApp } from "vue";
 import App from "./App.vue";
 
 import "./../node_modules/lv3-datatable/dist/style.css";
-import { Datatable } from 'lv3-datatable'
+import { DataTable } from 'lv3-datatable'
 
 const app = createApp(App);
 
