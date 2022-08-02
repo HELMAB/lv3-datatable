@@ -1,0 +1,30 @@
+{
+  "name": "lv3-datatable",
+  "version": "0.1.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/DataTable.umd.cjs",
+  "module": "./dist/DataTable.js",
+  "exports": {
+    ".": {
+      "import": "./dist/DataTable.js",
+      "require": "./dist/DataTable.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.2",
+    "bootstrap": "^3.4.1",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.0",
+    "vite": "^3.0.0"
+  }
+}
